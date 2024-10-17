@@ -1,0 +1,142 @@
+.logo_img{
+    width: 50px;
+    height: 50px;
+    
+}
+.logo{
+  display: flex;
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:#01011B
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: white;
+}
+h1{
+  color: white;
+  font-size:50px ;
+}
+
+h1 span{
+  background: linear-gradient(to bottom right, #11e3fb, #5be6ff, #b5f6fd, #11e3fb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.hero{
+  color: white;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  flex-wrap:wrap ;
+}
+.hero_L{
+  width: 50%;
+}
+p span{
+  color: #979898;
+}
+.hero_img{
+  width: 500px;
+  height: 500pox;
+  
+}
+.testimonial{
+  padding: 20px;
+  color: White;
+}
+.testimonial_container ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: x-large;
+  font-weight: 600;
+
+}
+.testimonial_container ul span{
+  background: linear-gradient(to bottom right, #11e3fb, #5be6ff, #b5f6fd, #11e3fb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.footer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid grey;
+
+}
+.skill p span{
+  color: white;
+  font-weight: 600;
+
+}
+.doubt{
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center ;
+  margin: 50px;
+  border-radius: 25px;
+  background-color: #0F0F24;
+}
+.experties{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ flex-direction: column;
+
+}
+.card{
+  background-color: #171726;
+  color: white;
+  border-radius: 20px;
+
+}
+.card_details h1{
+  background: linear-gradient(to bottom right, #11e3fb, #5be6ff, #b5f6fd, #11e3fb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+.card_details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 40px;
+}
+.card_holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  gap: 20px;
+}
